@@ -1,0 +1,116 @@
+# 🚀 Express TypeScript Boilerplate
+
+A clean and minimal **Express.js + TypeScript + Mongoose** boilerplate with structured folders and ready-to-use configuration — perfect for scalable API development.
+
+---
+
+## 📁 Folder Structure
+
+```
+project-root/
+│
+├── src/
+│   ├── config/               # App configuration (DB)
+│   ├── controllers/          # Route handlers
+│   ├── models/               # Mongoose models
+│   ├── routes/               # Route definitions
+│   ├── middlewares/          # Express middlewares
+│   ├── utils/                # Utility/helper functions
+│   ├── types/                # Custom TypeScript types
+│   ├── app.ts                # App setup
+│   └── server.ts             # Entry point
+│
+├── .env                      # Environment variables
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 💪 Setup Instructions
+
+### 1. Clone this repo
+
+```bash
+git clone https://github.com/your-username/node-ts.git
+cd node-ts
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup environment variables
+
+Create a `.env` file in the root:
+
+```
+PORT=4000
+MONGO_URI=mongodb://localhost:27017/your-db-name
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔧 Manual Setup (if starting from scratch)
+
+```bash
+mkdir -p src/{config,controllers,models,routes,middlewares,utils,types}
+
+touch src/config/db.ts
+
+touch src/config/env.ts
+
+touch src/controllers/demo.controller.ts
+
+touch src/models/demo.model.ts
+
+touch src/routes/demo.routes.ts
+
+touch src/routes/index.ts
+
+touch src/middlewares/error.middleware.ts
+
+touch src/types/demo.types.ts
+
+touch src/types/express.d.ts
+
+touch src/app.ts
+
+touch src/server.ts
+
+touch .env
+
+touch .gitignore
+
+touch README.md
+
+npm init -y
+
+npm install express mongoose dotenv
+
+npm install -D typescript ts-node-dev @types/node @types/express @types/mongoose nodemon
+
+npx tsc --init --rootDir src --outDir dist --esModuleInterop --resolveJsonModule --strict
+```
+
+---
+
+## 📄 License
+
+MIT
+
+---
+
+## 💬 Feedback or Suggestions?
+
+Feel free to open issues or PRs — contributions are welcome!
