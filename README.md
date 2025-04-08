@@ -92,12 +92,6 @@ npx tsc --init --rootDir src --outDir dist --esModuleInterop --resolveJsonModule
 
 ---
 
-## 📄 License
-
-MIT
-
----
-
 ## 💬 Feedback or Suggestions?
 
 Feel free to open issues or PRs — contributions are welcome!
