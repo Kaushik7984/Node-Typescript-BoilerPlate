@@ -34,8 +34,8 @@ project-root/
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/your-username/node-ts.git
-cd node-ts
+git clone https://github.com/Kaushik7984/Node-Typescript-BoilerPlate.git
+cd Node-Typescript-BoilerPlate
 ```
 
 ### 2. Install dependencies
