@@ -29,31 +29,18 @@ project-root/
 
 ---
 
-## 💪 Setup Instructions
+## ⚡ Quick Start
 
-### 1. Clone this repo
-
-```bash
-git clone https://github.com/Kaushik7984/Node-Typescript-BoilerPlate.git
-cd Node-Typescript-BoilerPlate
-```
-
-### 2. Install dependencies
+### Create a new project using the CLI:
 
 ```bash
-npm install
+npx create-node-type <project-name>
 ```
-
-### 3. Setup environment variables
-
-Create a `.env` file in the root:
-
+### Navigate into the project directory:
+```bash
+cd <project-name>
 ```
-PORT=4000
-MONGO_URI=mongodb://localhost:27017/your-db-name
-```
-
-### 4. Run the development server
+### Run the development server
 
 ```bash
 npm run dev
